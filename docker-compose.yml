@@ -36,4 +36,17 @@ services:
       - 51413:51413
       - 51413:51413/udp
     restart: unless-stopped
-
+  readarr:
+    image: lscr.io/linuxserver/readarr:develop
+    container_name: readarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - /path/to/data:/config
+      - ~/media/books:/books #optional
+      - /path/to/downloadclient-downloads:/downloads #optional
+    ports:
+      - 8787:8787
+    restart: unless-stopped
