@@ -13,3 +13,26 @@ services:
       - ~/plex/config:/config
       - ~/plex/media:/media
       - ~/plex/transcode:/transcode
+  transmission:
+    image: lscr.io/linuxserver/transmission:latest
+    container_name: transmission
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - TRANSMISSION_WEB_HOME= #optional
+      - USER= #optional
+      - PASS= #optional
+      - WHITELIST= 10.0.0.*
+      - PEERPORT= #optional
+      - HOST_WHITELIST= #optional
+    volumes:
+      - /path/to/data:/config
+      - /transmission/downloads:/downloads
+      - /transmission/watch:/watch
+    ports:
+      - 9091:9091
+      - 51413:51413
+      - 51413:51413/udp
+    restart: unless-stopped
+
