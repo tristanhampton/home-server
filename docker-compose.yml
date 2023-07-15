@@ -1,1 +1,15 @@
-test
+version: "3"
+services:
+  plex:
+    container_name: plex
+    image: plexinc/pms-docker
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PLEX_CLAIM=claim-bJvD_6AiyptwTjEzx7_G
+      - TZ='mountain'
+      - ADVERTISE_IP=http://your_host_ip:32400/
+    volumes:
+      - ~/plex/config:/config
+      - ~/plex/media:/media
+      - ~/plex/transcode:/transcode
