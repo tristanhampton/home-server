@@ -13,6 +13,7 @@ services:
       - ~/plex/config:/config
       - ~/plex/media:/media
       - ~/plex/transcode:/transcode
+      - ~/../../transmission/downloads/complete:/transmission
   transmission:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
