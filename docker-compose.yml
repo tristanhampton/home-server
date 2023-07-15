@@ -22,8 +22,8 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
       - TRANSMISSION_WEB_HOME= #optional
-      - USER= tristanhampton
-      - PASS= Localphone1
+      - USER=tristanhampton
+      - PASS=Localphone1
       - WHITELIST= 10.0.0.*
       - PEERPORT= #optional
       - HOST_WHITELIST= #optional
