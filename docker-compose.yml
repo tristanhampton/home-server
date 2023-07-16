@@ -84,3 +84,10 @@ services:
       - 8181:8181
       - 8081:8081
     restart: unless-stopped
+  sites:
+    image: nginx
+    container_name: sites
+    ports: 
+      - 8000:8000
+    volumes: 
+      - ./sites:/usr/share/nginx/html
