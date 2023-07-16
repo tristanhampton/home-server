@@ -10,10 +10,10 @@ services:
       - TZ='mountain'
       - ADVERTISE_IP=http://your_host_ip:32400/
     volumes:
-      - ~/plex/config:/config
-      - ~/plex/media:/media
-      - ~/plex/transcode:/transcode
-      - ~/../../transmission/downloads/complete:/transmission
+      - ./plex/config:/config
+      - ./plex/media:/media
+      - ./plex/transcode:/transcode
+      - ./transmission/media:/transmission
   transmission:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
@@ -28,9 +28,9 @@ services:
       - PEERPORT= #optional
       - HOST_WHITELIST= #optional
     volumes:
-      - /path/to/data:/config
-      - ~/plex/media:/downloads/Movies
-      - /transmission/watch:/watch
+      - ./transmission/config:/config
+      - ./transmission/media:/media/TV\ Shows
+      - ./transmission/watch:/watch
     ports:
       - 9091:9091
       - 51413:51413
@@ -45,9 +45,9 @@ services:
       - UMASK=022
       - TZ=Canada/Edmonton
     volumes:
-      - ~/Compose/readarr/data:/config
-      - ~/Compose/readarr/books:/books #optional
-      - /path/to/downloadclient-downloads:/downloads #optional
+      - ./readarr/config:/config
+      - ./readarr/books:/books #optional
+      - ./transmission/media:/downloads #optional
     ports:
       - 8787:8787
     restart: unless-stopped
@@ -60,9 +60,9 @@ services:
       - UMASK=022
       - TZ=Canada/Edmonton
     volumes:
-      - ~/Compose/sonarr/data:/config
-      - ~/Compose/sonarr/tv:/tv #optional
-      - ~/Compose/sonarr/downloads:/downloads #optional
+      - ./sonarr/config:/config
+      - ./sonarr/tv:/tv #optional
+      - ./sonarr/downloads:/downloads #optional
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -78,7 +78,7 @@ services:
       - PASSWORD= #optional
       - CLI_ARGS= #optional
     volumes:
-      - ~/Compose/calibre/data:/config
+      - ./calibre/config:/config
     ports:
       - 8081:8081
     restart: unless-stopped
@@ -103,8 +103,8 @@ services:
       - AUTO_UPDATE=true #optional
       - RUN_OPTS= #optional
     volumes:
-      - /path/to/data:/config
-      - /path/to/blackhole:/downloads
+      - ./jackett/config:/config
+      - ./jackett/downloads:/downloads
     ports:
       - 9117:9117
     restart: unless-stopped
