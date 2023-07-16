@@ -114,7 +114,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Canada/Edmonton
     volumes:
       - ./radarr/config:/config
       - ./radarr/movies:/movies #optional
