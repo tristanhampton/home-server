@@ -45,8 +45,8 @@ services:
       - UMASK=022
       - TZ=Canada/Edmonton
     volumes:
-      - /path/to/data:/config
-      - ~/media/books:/books #optional
+      - ~/Compose/readarr/data:/config
+      - ~/Compose/readarr/books:/books #optional
       - /path/to/downloadclient-downloads:/downloads #optional
     ports:
       - 8787:8787
