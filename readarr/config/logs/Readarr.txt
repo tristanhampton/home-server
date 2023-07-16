@@ -1953,3 +1953,536 @@
 2023-07-16 22:54:39.8|Info|ImportListSyncService|Processing 0 list items
 2023-07-16 22:54:39.8|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
 2023-07-16 22:54:40.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:54:50.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:55:01.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:55:11.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:55:22.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:55:33.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:55:44.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:55:55.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:56:06.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:56:17.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:56:28.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:56:39.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:56:50.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:57:01.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:57:12.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:57:22.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:57:33.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:57:43.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:57:53.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:58:04.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:58:16.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:58:26.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:58:37.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:58:48.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:58:59.8|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:59:10.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:59:21.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:59:32.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:59:40.2|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 22:59:40.2|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 22:59:40.2|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 22:59:44.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:59:55.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:00:06.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:00:17.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:00:27.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:00:37.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:00:47.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:00:57.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:01:08.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:01:19.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:01:29.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:01:40.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:01:51.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:02:02.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:02:12.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:02:22.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:02:32.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:02:43.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:02:53.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:03:04.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:03:15.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:03:26.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:03:37.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:03:48.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:03:59.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:04:11.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:04:22.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:04:32.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:04:40.6|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:04:40.6|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:04:40.6|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:04:44.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:04:54.8|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:05:06.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:05:16.8|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:05:27.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:05:38.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:05:49.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:06:00.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:06:12.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:06:23.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:06:34.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:06:45.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:06:56.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:07:07.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:07:17.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:07:28.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:07:39.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:07:50.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:08:01.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:08:12.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:08:23.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:08:34.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:08:41.1|Info|RssSyncService|Starting RSS Sync
+2023-07-16 23:08:41.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-16 23:08:41.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:08:41.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-16 23:08:45.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:08:55.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:09:05.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:09:16.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:09:27.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:09:38.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:09:41.2|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:09:41.2|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:09:41.2|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:09:49.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:10:00.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:10:10.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:10:21.8|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:10:32.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:10:43.8|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:10:54.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:11:06.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:11:16.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:11:27.8|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:11:38.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:11:49.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:12:00.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:12:10.9|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:12:22.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:12:33.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:12:44.0|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 23:14:41.8|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:14:41.8|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:14:41.9|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:19:42.0|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:19:42.0|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:19:42.0|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:23:43.1|Info|RssSyncService|Starting RSS Sync
+2023-07-16 23:23:43.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-16 23:23:43.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:23:43.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-16 23:24:43.1|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:24:43.1|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:24:43.1|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:29:43.5|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:29:43.5|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:29:43.5|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:33:21.6|Warn|GoodreadsSearchProxy|Resource temporarily unavailable (www.goodreads.com:443)
+
+[v0.2.2.1943] System.Net.Http.HttpRequestException: Resource temporarily unavailable (www.goodreads.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Readarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 299
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Readarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 275
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Readarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 102
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Readarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Readarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in ./Readarr.Common/Http/HttpClient.cs:line 299
+   at NzbDrone.Core.Http.CachedHttpResponseService.Get(HttpRequest request, Boolean useCache, TimeSpan ttl) in ./Readarr.Core/Http/CachedHttpResponseService.cs:line 40
+   at NzbDrone.Core.Http.CachedHttpResponseService.Get[T](HttpRequest request, Boolean useCache, TimeSpan ttl) in ./Readarr.Core/Http/CachedHttpResponseService.cs:line 68
+   at NzbDrone.Core.MetadataSource.Goodreads.GoodreadsSearchProxy.Search(String query) in ./Readarr.Core/MetadataSource/GoodreadsSearchProxy/GoodreadsSearchProxy.cs:line 42
+
+
+2023-07-16 23:33:21.7|Warn|BookInfoProxy|Error searching for brandon
+
+[v0.2.2.1943] NzbDrone.Core.MetadataSource.Goodreads.GoodreadsException: Search for 'brandon' failed. Invalid response received from Goodreads.
+   at NzbDrone.Core.MetadataSource.Goodreads.GoodreadsSearchProxy.Search(String query) in ./Readarr.Core/MetadataSource/GoodreadsSearchProxy/GoodreadsSearchProxy.cs:line 53
+   at NzbDrone.Core.MetadataSource.BookInfo.BookInfoProxy.Search(String query, Boolean getAllEditions) in ./Readarr.Core/MetadataSource/BookInfo/BookInfoProxy.cs:line 244
+
+
+2023-07-16 23:33:43.7|Info|AddAuthorService|Adding Author [38550][Brandon Sanderson] Path: [/books/Brandon Sanderson]
+2023-07-16 23:33:44.5|Info|RefreshAuthorService|Updating Info for Brandon Sanderson
+2023-07-16 23:33:44.8|Info|RefreshBookService|Updating Info for The Alloy of Law
+2023-07-16 23:33:45.0|Info|RefreshBookService|Updating Info for Legion: Skin Deep
+2023-07-16 23:33:45.1|Info|RefreshBookService|Updating Info for Arcanum Unbounded: The Cosmere Collection
+2023-07-16 23:33:45.2|Info|RefreshBookService|Updating Info for Rhythm of War
+2023-07-16 23:33:45.3|Info|RefreshBookService|Updating Info for Alcatraz vs. The Evil Librarians Series: (Alcatraz vs. The Evil Librarians, The Scrivener's Bones, The Knights of Crystallia, The Shattered Lens, The Dark ...
+2023-07-16 23:33:45.4|Info|RefreshBookService|Updating Info for Skyward
+2023-07-16 23:33:45.5|Info|RefreshBookService|Updating Info for Oathbringer
+2023-07-16 23:33:45.7|Info|RefreshBookService|Updating Info for The Alloy of Law Excerpt: Prologue - Chapter 6
+2023-07-16 23:33:45.8|Info|RefreshBookService|Updating Info for Three Fantasies - Tales from the Cosmere: Elantris, The Emperor's Soul, Warbreaker
+2023-07-16 23:33:46.0|Info|RefreshBookService|Updating Info for The Well of Ascension
+2023-07-16 23:33:46.1|Info|RefreshBookService|Updating Info for Bastille vs. the Evil Librarians
+2023-07-16 23:33:46.2|Info|RefreshBookService|Updating Info for The Dark Talent
+2023-07-16 23:33:46.2|Info|RefreshBookService|Updating Info for Shadows for Silence in the Forests of Hell
+2023-07-16 23:33:46.3|Info|RefreshBookService|Updating Info for Allomancer Jak and the Pits of Eltania
+2023-07-16 23:33:46.4|Info|RefreshBookService|Updating Info for The Emperor's Soul
+2023-07-16 23:33:46.4|Info|RefreshBookService|Updating Info for The Rithmatist 
+2023-07-16 23:33:46.6|Info|RefreshBookService|Updating Info for Firstborn
+2023-07-16 23:33:46.7|Info|RefreshBookService|Updating Info for Alcatraz Versus the Shattered Lens
+2023-07-16 23:33:46.8|Info|RefreshBookService|Updating Info for Alcatraz Versus the Knights of Crystallia
+2023-07-16 23:33:47.0|Info|RefreshBookService|Updating Info for Perfect State & Shadows for Silence in the Forest of Hell
+2023-07-16 23:33:47.1|Info|RefreshBookService|Updating Info for  Lies of the Beholder
+2023-07-16 23:33:47.2|Info|RefreshBookService|Updating Info for White Sand, Volume 3
+2023-07-16 23:33:47.2|Info|RefreshBookService|Updating Info for Knights of Wind and Truth
+2023-07-16 23:33:47.3|Info|RefreshBookService|Updating Info for The Hope of Elantris
+2023-07-16 23:33:47.4|Info|RefreshBookService|Updating Info for Sixth of the Dusk
+2023-07-16 23:33:47.4|Info|RefreshBookService|Updating Info for Dragonsteel
+2023-07-16 23:33:47.5|Info|RefreshBookService|Updating Info for The Hero of Ages
+2023-07-16 23:33:47.6|Info|RefreshBookService|Updating Info for Defiant
+2023-07-16 23:33:47.7|Info|RefreshBookService|Updating Info for Cytonic
+2023-07-16 23:33:47.8|Info|RefreshBookService|Updating Info for Starsight
+2023-07-16 23:33:47.9|Info|RefreshBookService|Updating Info for Untitled
+2023-07-16 23:33:48.0|Info|RefreshBookService|Updating Info for Perfect State
+2023-07-16 23:33:48.1|Info|RefreshBookService|Updating Info for The Lost Metal
+2023-07-16 23:33:48.2|Info|RefreshBookService|Updating Info for Firefight
+2023-07-16 23:33:48.3|Info|RefreshBookService|Updating Info for Dreamer
+2023-07-16 23:33:48.3|Info|RefreshBookService|Updating Info for The Way of Kings
+2023-07-16 23:33:48.4|Info|RefreshBookService|Updating Info for Mistborn: The Final Empire
+2023-07-16 23:33:48.5|Info|RefreshBookService|Updating Info for Mitosis
+2023-07-16 23:33:48.6|Info|RefreshBookService|Updating Info for Justicière, Volume 1 (Les Archives de Roshar, Tome 3)
+2023-07-16 23:33:48.6|Info|RefreshBookService|Updating Info for Lift 
+2023-07-16 23:33:48.7|Info|RefreshBookService|Updating Info for White Sand, Volume 2
+2023-07-16 23:33:48.8|Info|RefreshBookService|Updating Info for Alcatraz Versus the Evil Librarians
+2023-07-16 23:33:48.9|Info|RefreshBookService|Updating Info for Edgedancer
+2023-07-16 23:33:49.2|Info|RefreshBookService|Updating Info for Steelheart
+2023-07-16 23:33:49.7|Info|RefreshBookService|Updating Info for Shadows Beneath: The Writing Excuses Anthology
+2023-07-16 23:33:50.4|Info|RefreshBookService|Updating Info for Centrifugal
+2023-07-16 23:33:50.7|Info|RefreshBookService|Updating Info for White Sand
+2023-07-16 23:33:50.9|Info|RefreshBookService|Updating Info for I Hate Dragons
+2023-07-16 23:33:51.1|Info|RefreshBookService|Updating Info for Shadows of Self
+2023-07-16 23:33:51.2|Info|RefreshBookService|Updating Info for Warbreaker
+2023-07-16 23:33:51.4|Info|RefreshBookService|Updating Info for Defending Elysium
+2023-07-16 23:33:51.6|Info|RefreshBookService|Updating Info for The Stormlight Archive - A Pocket Companion to The Way of Kings and Words of Radiance
+2023-07-16 23:33:51.8|Info|RefreshBookService|Updating Info for Children of the Nameless
+2023-07-16 23:33:52.0|Info|RefreshBookService|Updating Info for The Bands of Mourning
+2023-07-16 23:33:52.2|Info|RefreshBookService|Updating Info for Mistborn: Secret History
+2023-07-16 23:33:52.4|Info|RefreshBookService|Updating Info for Elantris
+2023-07-16 23:33:52.7|Info|RefreshBookService|Updating Info for Brandon Sanderson Sampler: The Way of Kings and Mistborn
+2023-07-16 23:33:52.9|Info|RefreshBookService|Updating Info for Dark One Volume 1
+2023-07-16 23:33:53.0|Info|RefreshBookService|Updating Info for Legion
+2023-07-16 23:33:53.1|Info|RefreshBookService|Updating Info for Steelheart Chapter Sampler
+2023-07-16 23:33:53.3|Info|RefreshBookService|Updating Info for Infinity Blade: Redemption
+2023-07-16 23:33:53.4|Info|RefreshBookService|Updating Info for Infinite Blade: Awakening
+2023-07-16 23:33:53.7|Info|RefreshBookService|Updating Info for The Eleventh Metal
+2023-07-16 23:33:54.1|Info|RefreshBookService|Updating Info for Mistborn Adventure Game
+2023-07-16 23:33:54.4|Info|RefreshBookService|Updating Info for Legion and The Emperor's Soul
+2023-07-16 23:33:54.6|Info|RefreshBookService|Updating Info for Calamity
+2023-07-16 23:33:54.8|Info|RefreshBookService|Updating Info for The Scrivener's Bones
+2023-07-16 23:33:55.0|Info|RefreshBookService|Updating Info for Snapshot
+2023-07-16 23:33:55.2|Info|RefreshBookService|Updating Info for Words of Radiance
+2023-07-16 23:33:55.5|Info|RefreshBookService|Updating Info for White Sand
+2023-07-16 23:33:55.5|Info|RefreshBookService|Updating Info for Untitled
+2023-07-16 23:33:55.6|Info|RefreshBookService|Updating Info for Yumi and the Nightmare Painter
+2023-07-16 23:33:55.6|Info|RefreshBookService|Updating Info for Untitled
+2023-07-16 23:33:55.6|Info|RefreshBookService|Updating Info for Lux
+2023-07-16 23:33:55.7|Info|RefreshBookService|Updating Info for Dark One: Forgotten
+2023-07-16 23:33:55.7|Info|RefreshBookService|Updating Info for Evershore
+2023-07-16 23:33:55.7|Info|RefreshBookService|Updating Info for Secret Project #4
+2023-07-16 23:33:55.8|Info|RefreshBookService|Updating Info for Untitled
+2023-07-16 23:33:55.8|Info|RefreshBookService|Updating Info for Wax and Wayne, The Mistborn Saga Boxed Set: Alloy of Law, Shadows of Self, Bands of Mourning, and The Lost Metal
+2023-07-16 23:33:55.9|Info|RefreshBookService|Updating Info for The Way of Kings Prime
+2023-07-16 23:33:55.9|Info|RefreshBookService|Updating Info for The Original
+2023-07-16 23:33:55.9|Info|RefreshBookService|Updating Info for ReDawn
+2023-07-16 23:33:56.0|Info|RefreshBookService|Updating Info for The Frugal Wizard's Handbook for Surviving Medieval England
+2023-07-16 23:33:56.0|Info|RefreshBookService|Updating Info for Stephen Leeds: Death and Faxes
+2023-07-16 23:33:56.1|Info|RefreshBookService|Updating Info for Sunreach
+2023-07-16 23:33:56.1|Info|RefreshBookService|Updating Info for Tress of the Emerald Sea
+2023-07-16 23:33:56.2|Info|RefreshBookService|Updating Info for Dawnshard
+2023-07-16 23:33:57.3|Info|DiskScanService|Scanning /books/
+2023-07-16 23:33:57.3|Info|MediaCoverService|Downloading Poster for [38550][Brandon Sanderson] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/authors/1394044556i/38550.jpg
+2023-07-16 23:33:57.3|Warn|DiskScanService|Scan folder /books/ is empty.
+2023-07-16 23:33:57.3|Info|TrackGroupingService|Grouping 0 tracks
+2023-07-16 23:33:57.4|Info|ImportApprovedBooks|Importing 0 files
+2023-07-16 23:33:57.4|Info|DiskScanService|Completed scanning disk for Brandon Sanderson
+2023-07-16 23:33:57.4|Info|AuthorScannedHandler|[Brandon Sanderson] was recently added, performing post-add actions
+2023-07-16 23:34:00.2|Info|MediaCoverService|Downloading Cover for [15035863][The Alloy of Law] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442889632i/10803121.jpg
+2023-07-16 23:34:00.3|Info|BookSearchService|Performing missing search for 79 books
+2023-07-16 23:34:00.3|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Alloy of Law]. 1 active indexers
+2023-07-16 23:34:01.2|Info|MediaCoverService|Downloading Cover for [40227944][Legion: Skin Deep] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659901009i/20886354.jpg
+2023-07-16 23:34:05.5|Warn|HttpClient|HTTP Error - Res: [GET] http://10.0.0.53:9117/api/v2.0/indexers/ebookbay/results/torznab/api?t=search&cat=3030,7000,7020&extended=1&apikey=(removed)&offset=0&limit=100&q=Alloy%20of%20Law+Brandon%20Sanderson: 400.BadRequest (4129 bytes)
+<?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (ebookbay): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (ebb.la:80)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 219&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 531&#xA;   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1505&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 312&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 330&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 706&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414" />
+2023-07-16 23:34:05.7|Warn|Torznab|EBook Bay HTTP request failed: [400:BadRequest] [GET] at [http://10.0.0.53:9117/api/v2.0/indexers/ebookbay/results/torznab/api?t=search&cat=3030,7000,7020&extended=1&apikey=(removed)&offset=0&limit=100&q=Alloy%20of%20Law+Brandon%20Sanderson]
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Skin Deep]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Arcanum Unbounded: The Cosmere Collection]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Rhythm of War]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Alcatraz vs. The Evil Librarians Series: (Alcatraz vs. The Evil Librarians, The Scrivener's Bones, The Knights of Crystallia, The Shattered Lens, The Dark ...]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Skyward]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Oathbringer]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Alloy of Law Excerpt: Prologue - Chapter 6]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Three Fantasies - Tales from the Cosmere: Elantris, The Emperor's Soul, Warbreaker]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Well of Ascension]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Bastille vs. the Evil Librarians]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Dark Talent]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.7|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Shadows for Silence in the Forests of Hell]. 0 active indexers
+2023-07-16 23:34:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Allomancer Jak and the Pits of Eltania]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Emperor's Soul]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Rithmatist]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Firstborn]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Alcatraz Versus the Shattered Lens]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Alcatraz Versus the Knights of Crystallia]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Shadows for Silence in the Forests of Hell; Perfect State]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Lies of the Beholder]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - White Sand, Volume 3]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Hope of Elantris]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Sixth of the Dusk]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Dragonsteel]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Hero of Ages]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Cytonic]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Starsight]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Perfect State]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Lost Metal]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Firefight]. 0 active indexers
+2023-07-16 23:34:05.8|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.8|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Dreamer]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Way of Kings]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Final Empire]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Mitosis]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Justicière, Volume 1]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Lift]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - White Sand, Volume 2]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Alcatraz Versus the Evil Librarians]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Edgedancer]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Steelheart]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Shadows Beneath: The Writing Excuses Anthology]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Centrifugal]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - White Sand, Volume 1]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - I Hate Dragons]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Shadows of Self]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Warbreaker]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Defending Elysium]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Stormlight Archive - A Pocket Companion to The Way of Kings and Words of Radiance]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Children of the Nameless]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:05.9|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Bands of Mourning]. 0 active indexers
+2023-07-16 23:34:05.9|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Secret History]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Elantris]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Brandon Sanderson Sampler: The Way of Kings and Mistborn]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Dark One]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Legion]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Steelheart Chapter Sampler]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Redemption]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Awakening]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Eleventh Metal]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Mistborn Adventure Game]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Legion and The Emperor's Soul]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Calamity]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Alcatraz Versus the Scrivener's Bones]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Snapshot]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Words of Radiance]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - White Sand]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Yumi and the Nightmare Painter]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Lux]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Dark One: Forgotten]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Evershore]. 0 active indexers
+2023-07-16 23:34:06.0|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.0|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Way of Kings Prime]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Original]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - ReDawn]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - The Frugal Wizard’s Handbook for Surviving Medieval England]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Stephen Leeds: Death and Faxes]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Sunreach]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Tress of the Emerald Sea]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|ReleaseSearchService|Searching indexers for [Brandon Sanderson - Dawnshard]. 0 active indexers
+2023-07-16 23:34:06.1|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:34:06.1|Info|BookSearchService|Completed missing search for 79 books. 0 reports downloaded.
+2023-07-16 23:34:08.8|Info|MediaCoverService|Downloading Cover for [48765829][Arcanum Unbounded: The Cosmere Collection] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1466536615i/28595941.jpg
+2023-07-16 23:34:10.2|Info|MediaCoverService|Downloading Cover for [23840265][Rhythm of War] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1599911216i/49021976.jpg
+2023-07-16 23:34:13.9|Info|MediaCoverService|Downloading Cover for [55532178][Alcatraz vs. The Evil Librarians Series: (Alcatraz vs. The Evil Librarians, The Scrivener's Bones, The Knights of Crystallia, The Shattered Lens, The Dark ...] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1488262099i/34426511.jpg
+2023-07-16 23:34:15.5|Info|MediaCoverService|Downloading Cover for [58411143][Skyward] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1531845177i/36642458.jpg
+2023-07-16 23:34:22.6|Info|MediaCoverService|Downloading Cover for [23840254][Oathbringer] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654573897i/34002132.jpg
+2023-07-16 23:34:43.9|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:34:43.9|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:34:43.9|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:35:06.1|Info|MediaCoverService|Downloading Cover for [17485641][The Alloy of Law Excerpt: Prologue - Chapter 6] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328310837i/12348752.jpg
+2023-07-16 23:35:07.5|Info|MediaCoverService|Downloading Cover for [43069635][Three Fantasies - Tales from the Cosmere: Elantris, The Emperor's Soul, Warbreaker] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1421765853i/23478596.jpg
+2023-07-16 23:35:09.4|Info|MediaCoverService|Downloading Cover for [2120474][The Well of Ascension] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1619538925i/68429.jpg
+2023-07-16 23:35:11.8|Info|MediaCoverService|Downloading Cover for [53073878][Bastille vs. the Evil Librarians] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649373273i/59808314.jpg
+2023-07-16 23:35:13.4|Info|MediaCoverService|Downloading Cover for [26576862][The Dark Talent] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1443207060i/26114421.jpg
+2023-07-16 23:35:22.0|Info|MediaCoverService|Downloading Cover for [40712188][Shadows for Silence in the Forests of Hell] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1426179951l/21411388.jpg
+2023-07-16 23:35:22.3|Info|MediaCoverService|Downloading Cover for [54097481][Allomancer Jak and the Pits of Eltania] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659764795i/33357675.jpg
+2023-07-16 23:36:04.8|Info|MediaCoverService|Downloading Cover for [19161502][The Emperor's Soul] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659906200i/13578175.jpg
+2023-07-16 23:36:05.5|Info|MediaCoverService|Downloading Cover for [15035866][The Rithmatist ] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1402239963i/22443261.jpg
+2023-07-16 23:36:06.5|Info|MediaCoverService|Downloading Cover for [13430971][Firstborn] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328340261i/8562526.jpg
+2023-07-16 23:36:07.0|Info|MediaCoverService|Downloading Cover for [10548901][Alcatraz Versus the Shattered Lens] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388346197i/7740659.jpg
+2023-07-16 23:36:09.1|Info|MediaCoverService|Downloading Cover for [6405877][Alcatraz Versus the Knights of Crystallia] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1304976247i/6366110.jpg
+2023-07-16 23:36:10.2|Info|MediaCoverService|Downloading Cover for [45893703][Perfect State & Shadows for Silence in the Forest of Hell] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1437906595i/25982243.jpg
+2023-07-16 23:36:10.7|Info|MediaCoverService|Downloading Cover for [59228078][ Lies of the Beholder] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522700684i/37640636.jpg
+2023-07-16 23:36:12.3|Info|MediaCoverService|Downloading Cover for [60880085][White Sand, Volume 3] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1551446179i/39298848.jpg
+2023-07-16 23:36:14.1|Info|MediaCoverService|Downloading Cover for [15766814][The Hope of Elantris] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661025414i/10852065.jpg
+2023-07-16 23:36:15.0|Info|MediaCoverService|Downloading Cover for [42280064][Sixth of the Dusk] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659764697i/23397921.jpg
+2023-07-16 23:36:19.1|Info|MediaCoverService|Downloading Cover for [2793516][The Hero of Ages] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628563911i/2767793.jpg
+2023-07-16 23:36:20.8|Info|MediaCoverService|Downloading Cover for [67851408][Defiant] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677354665i/43606308.jpg
+2023-07-16 23:36:23.2|Info|MediaCoverService|Downloading Cover for [67851209][Cytonic] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1622045953i/57571215.jpg
+2023-07-16 23:36:24.5|Info|MediaCoverService|Downloading Cover for [66521196][Starsight] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1569876576i/42769202.jpg
+2023-07-16 23:36:25.7|Info|MediaCoverService|Downloading Cover for [44897384][Perfect State] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1426951197i/25188109.jpg
+2023-07-16 23:36:26.5|Info|MediaCoverService|Downloading Cover for [43551632][The Lost Metal] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653582537i/23947089.jpg
+2023-07-16 23:36:31.4|Info|MediaCoverService|Downloading Cover for [21979689][Firefight] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1661014557i/15704459.jpg
+2023-07-16 23:36:40.8|Info|MediaCoverService|Downloading Cover for [56085257][Dreamer] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1492130072i/34848662.jpg
+2023-07-16 23:36:41.3|Info|MediaCoverService|Downloading Cover for [8134945][The Way of Kings] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905828i/7235533.jpg
+2023-07-16 23:36:41.8|Info|MediaCoverService|Downloading Cover for [66322][Mistborn: The Final Empire] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1617768316i/68428.jpg
+2023-07-16 23:36:44.0|Info|MediaCoverService|Downloading Cover for [26984416][Mitosis] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659766097i/18966322.jpg
+2023-07-16 23:36:49.9|Info|MediaCoverService|Downloading Cover for [69491865][Justicière, Volume 1 (Les Archives de Roshar, Tome 3)] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1562236468l/52293655.jpg
+2023-07-16 23:36:52.7|Info|MediaCoverService|Downloading Cover for [27461137][Lift ] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386829111i/19389520.jpg
+2023-07-16 23:36:53.0|Info|MediaCoverService|Downloading Cover for [54325597][White Sand, Volume 2] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1518123342i/33551363.jpg
+2023-07-16 23:36:53.6|Info|MediaCoverService|Downloading Cover for [2591148][Alcatraz Versus the Evil Librarians] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1332516621i/623976.jpg
+2023-07-16 23:36:54.1|Info|MediaCoverService|Downloading Cover for [54097500][Edgedancer] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1499706661i/34703445.jpg
+2023-07-16 23:36:55.3|Info|MediaCoverService|Downloading Cover for [21366540][Steelheart] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1660269968i/17182126.jpg
+2023-07-16 23:36:57.7|Info|MediaCoverService|Downloading Cover for [41115731][Shadows Beneath: The Writing Excuses Anthology] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404053396i/21844946.jpg
+2023-07-16 23:36:58.4|Info|MediaCoverService|Downloading Cover for [24945901][Centrifugal] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1596816598i/17830461.jpg
+2023-07-16 23:36:59.3|Info|MediaCoverService|Downloading Cover for [49300972][White Sand] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1458567969i/28862254.jpg
+2023-07-16 23:37:00.6|Info|MediaCoverService|Downloading Cover for [24946506][I Hate Dragons] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654249211i/22041948.jpg
+2023-07-16 23:37:02.8|Info|MediaCoverService|Downloading Cover for [21855448][Shadows of Self] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659900268i/16065004.jpg
+2023-07-16 23:37:06.5|Info|MediaCoverService|Downloading Cover for [1257385][Warbreaker] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1240256182i/1268479.jpg
+2023-07-16 23:37:08.4|Info|MediaCoverService|Downloading Cover for [19121052][Defending Elysium] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390389456i/13552643.jpg
+2023-07-16 23:37:09.0|Info|MediaCoverService|Downloading Cover for [50477144][The Stormlight Archive - A Pocket Companion to The Way of Kings and Words of Radiance] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462440030i/30063474.jpg
+2023-07-16 23:37:09.5|Info|MediaCoverService|Downloading Cover for [67044335][Children of the Nameless] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1544636345i/43205859.jpg
+2023-07-16 23:37:11.5|Info|MediaCoverService|Downloading Cover for [26616838][The Bands of Mourning] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1450134973i/18739426.jpg
+2023-07-16 23:37:13.7|Info|MediaCoverService|Downloading Cover for [48896020][Mistborn: Secret History] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659766387i/28698036.jpg
+2023-07-16 23:37:14.3|Info|MediaCoverService|Downloading Cover for [2908871][Elantris] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1475740953i/68427.jpg
+2023-07-16 23:37:15.9|Info|MediaCoverService|Downloading Cover for [52841091][Brandon Sanderson Sampler: The Way of Kings and Mistborn] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405920847i/22572507.jpg
+2023-07-16 23:37:16.5|Info|MediaCoverService|Downloading Cover for [47150963][Dark One Volume 1] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1598836149i/49798827.jpg
+2023-07-16 23:37:17.0|Info|MediaCoverService|Downloading Cover for [18978261][Legion] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1338512017i/13452375.jpg
+2023-07-16 23:37:18.9|Info|MediaCoverService|Downloading Cover for [25994904][Steelheart Chapter Sampler] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1379333585i/18378947.jpg
+2023-07-16 23:37:20.7|Info|MediaCoverService|Downloading Cover for [25962129][Infinity Blade: Redemption] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1377011921i/18361393.jpg
+2023-07-16 23:37:21.4|Info|MediaCoverService|Downloading Cover for [17944957][Infinite Blade: Awakening] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552777634i/12796771.jpg
+2023-07-16 23:37:22.7|Info|MediaCoverService|Downloading Cover for [42376295][The Eleventh Metal] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659766270i/22823333.jpg
+2023-07-16 23:37:23.9|Info|MediaCoverService|Downloading Cover for [26487422][Mistborn Adventure Game] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1364482174i/15788577.jpg
+2023-07-16 23:37:24.2|Info|MediaCoverService|Downloading Cover for [25866646][Legion and The Emperor's Soul] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1438890451i/18324059.jpg
+2023-07-16 23:37:25.1|Info|MediaCoverService|Downloading Cover for [21366542][Calamity] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1437098338i/15704486.jpg
+2023-07-16 23:37:25.7|Info|MediaCoverService|Downloading Cover for [3526970][The Scrivener's Bones] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1275527715i/3485562.jpg
+2023-07-16 23:37:26.4|Info|MediaCoverService|Downloading Cover for [51814159][Snapshot] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1481918792i/31176804.jpg
+2023-07-16 23:37:27.2|Info|MediaCoverService|Downloading Cover for [16482835][Words of Radiance] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1659905768i/17332218.jpg
+2023-07-16 23:37:29.0|Info|MediaCoverService|Downloading Cover for [53403170][White Sand] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1513232218i/8868764.jpg
+2023-07-16 23:37:29.9|Info|MediaCoverService|Downloading Cover for [95396325][Yumi and the Nightmare Painter] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1688694142i/60531416.jpg
+2023-07-16 23:37:31.1|Info|MediaCoverService|Downloading Cover for [91659816][Lux] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1624586180i/58419574.jpg
+2023-07-16 23:37:32.8|Info|MediaCoverService|Downloading Cover for [95142172][Dark One: Forgotten] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671747960i/60373696.jpg
+2023-07-16 23:37:33.9|Info|MediaCoverService|Downloading Cover for [91782364][Evershore] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1636833412i/58465495.jpg
+2023-07-16 23:37:35.7|Info|MediaCoverService|Downloading Cover for [95396333][Secret Project #4] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1646363984i/60531420.jpg
+2023-07-16 23:37:36.4|Info|MediaCoverService|Downloading Cover for [151528124][Wax and Wayne, The Mistborn Saga Boxed Set: Alloy of Law, Shadows of Self, Bands of Mourning, and The Lost Metal] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1684794122i/133938837.jpg
+2023-07-16 23:37:36.7|Info|MediaCoverService|Downloading Cover for [84942180][The Way of Kings Prime] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1594619899i/54433225.jpg
+2023-07-16 23:37:37.7|Info|MediaCoverService|Downloading Cover for [85213971][The Original] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1599214505i/54615879.jpg
+2023-07-16 23:37:38.6|Info|MediaCoverService|Downloading Cover for [90713832][ReDawn] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633436358i/57903879.jpg
+2023-07-16 23:37:39.6|Info|MediaCoverService|Downloading Cover for [95396314][The Frugal Wizard's Handbook for Surviving Medieval England] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1680535465i/60531410.jpg
+2023-07-16 23:37:40.2|Info|MediaCoverService|Downloading Cover for [95067436][Stephen Leeds: Death and Faxes] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653955966i/60301954.jpg
+2023-07-16 23:37:40.6|Info|MediaCoverService|Downloading Cover for [90713801][Sunreach] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1632169745i/57903876.jpg
+2023-07-16 23:37:41.9|Info|MediaCoverService|Downloading Cover for [95396305][Tress of the Emerald Sea] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1672574587i/60531406.jpg
+2023-07-16 23:37:44.2|Info|MediaCoverService|Downloading Cover for [85080763][Dawnshard] https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1673892527i/54511226.jpg
+2023-07-16 23:37:44.7|Info|MetadataService|Author folder does not exist, skipping metadata creation
+2023-07-16 23:38:44.4|Info|RssSyncService|Starting RSS Sync
+2023-07-16 23:38:44.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-16 23:38:44.4|Info|DownloadDecisionMaker|No results found
+2023-07-16 23:38:44.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-16 23:39:07.3|Warn|ReadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2023-07-16 23:39:31.6|Warn|ReadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2023-07-16 23:39:44.4|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 23:39:44.4|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 23:39:44.4|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 23:39:49.7|Warn|ReadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2023-07-16 23:39:55.1|Warn|ReadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2023-07-16 23:40:13.5|Warn|ReadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.

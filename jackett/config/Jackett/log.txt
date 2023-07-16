@@ -42,3 +42,77 @@
 2023-07-16 22:43:42.6143 Info Adding filter indexer ('type:private' indexer) ... 
 2023-07-16 22:43:42.6317 Info Adding filter indexer ('type:semi-public' indexer) ... 
 2023-07-16 22:43:42.9453 Info Jackett startup finished in 5.277 s 
+2023-07-16 22:58:30.5651 Warn Some of the categories provided are unsupported in Badass Torrents: 5030,5040 
+2023-07-16 22:58:37.1297 Info Torznab search in Badass Torrents => Found 24 releases [6585ms] 
+2023-07-16 22:58:38.8606 Warn Some of the categories provided are unsupported in Badass Torrents: 5030,5040 
+2023-07-16 22:58:38.8711 Info Torznab search in Badass Torrents => Found 24 releases (from cache) [10ms] 
+2023-07-16 22:59:33.3158 Info Torznab search in The Pirate Bay => Found 18 releases [1210ms] 
+2023-07-16 22:59:34.5468 Info Torznab search in The Pirate Bay => Found 18 releases (from cache) [0ms] 
+2023-07-16 23:01:57.1725 Warn Some of the categories provided are unsupported in Badass Torrents: 5030,5040 
+2023-07-16 23:01:57.3741 Error Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured 
+
+[v0.21.481.0] Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured
+ ---> FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 531
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1505
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 312
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 330
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 706
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+
+2023-07-16 23:01:58.3078 Info Torznab search in The Pirate Bay for Gravity Falls S01 => Found 6 releases [1135ms] 
+2023-07-16 23:02:00.2875 Info Torznab search in The Pirate Bay for Gravity Falls S02 => Found 6 releases [778ms] 
+2023-07-16 23:09:43.1655 Warn Some of the categories provided are unsupported in Badass Torrents: 5030,5040 
+2023-07-16 23:09:43.1655 Info Torznab search in The Pirate Bay => Found 18 releases (from cache) [0ms] 
+2023-07-16 23:09:43.1685 Info Torznab search in Badass Torrents => Found 24 releases (from cache) [3ms] 
+2023-07-16 23:25:13.4764 Warn Some of the categories provided are unsupported in Badass Torrents: 5030,5040 
+2023-07-16 23:25:13.4764 Info Torznab search in The Pirate Bay => Found 18 releases (from cache) [0ms] 
+2023-07-16 23:25:13.4764 Info Torznab search in Badass Torrents => Found 24 releases (from cache) [3ms] 
+2023-07-16 23:32:44.6578 Info Torznab search in EBookBay => Found 25 releases [15588ms] 
+2023-07-16 23:32:46.0121 Info Torznab search in EBookBay => Found 25 releases (from cache) [5ms] 
+2023-07-16 23:34:05.4374 Error Jackett.Common.IndexerException: Exception (ebookbay): Resource temporarily unavailable 
+
+[v0.21.481.0] Jackett.Common.IndexerException: Exception (ebookbay): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (ebb.la:80)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 219
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 531
+   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1505
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 312
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 330
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 706
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414
+
+
+2023-07-16 23:39:07.3602 Info Torznab search in The Pirate Bay => Found 0 releases [1435ms] 
+2023-07-16 23:39:31.6239 Info Torznab search in The Pirate Bay => Found 0 releases [1015ms] 
+2023-07-16 23:39:49.7159 Info Torznab search in The Pirate Bay => Found 0 releases [817ms] 
+2023-07-16 23:39:55.1838 Info Torznab search in The Pirate Bay => Found 0 releases (from cache) [0ms] 
+2023-07-16 23:40:13.5491 Info Torznab search in The Pirate Bay => Found 0 releases [997ms] 
+2023-07-16 23:40:14.2851 Warn Some of the categories provided are unsupported in Badass Torrents: 5030,5040 
+2023-07-16 23:40:15.5812 Info Torznab search in The Pirate Bay => Found 18 releases [1296ms] 
+2023-07-16 23:40:20.0517 Info Torznab search in Badass Torrents => Found 30 releases [5766ms] 

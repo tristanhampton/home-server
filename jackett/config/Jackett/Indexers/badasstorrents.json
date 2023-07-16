@@ -9,7 +9,7 @@
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": null
+    "value": "PHPSESSID=qsc09ln5l34qdt462cqt3kud2s"
   },
   {
     "id": "lasterror",

@@ -691,3 +691,55 @@
 2023-07-16 22:54:40.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
 2023-07-16 22:54:40.9|Info|DownloadDecisionMaker|No results found
 2023-07-16 22:54:40.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-16 23:00:56.7|Info|AddSeriesService|Adding Series [77075][Jeopardy!] Path: [/tv/Jeopardy!]
+2023-07-16 23:00:57.0|Info|SceneMappingService|Updating Scene mappings
+2023-07-16 23:00:57.2|Info|RefreshSeriesService|Updating Jeopardy!
+2023-07-16 23:00:58.4|Info|RefreshEpisodeService|Starting episode info refresh for: [77075][Jeopardy!]
+2023-07-16 23:01:02.3|Info|RefreshEpisodeService|Finished episode refresh for series: [77075][Jeopardy!].
+2023-07-16 23:01:02.9|Info|MediaCoverService|Downloading Banner for [77075][Jeopardy!] https://artworks.thetvdb.com/banners/graphical/77075-g.jpg
+2023-07-16 23:01:02.9|Info|DiskScanService|Scanning Jeopardy!
+2023-07-16 23:01:03.1|Info|MediaCoverService|Downloading Poster for [77075][Jeopardy!] https://artworks.thetvdb.com/banners/v4/series/77075/posters/63dcbc59a5656.jpg
+2023-07-16 23:01:03.3|Info|MediaCoverService|Downloading Fanart for [77075][Jeopardy!] https://artworks.thetvdb.com/banners/v4/series/77075/backgrounds/63dcbc04804a6.jpg
+2023-07-16 23:01:03.6|Info|MediaCoverService|Downloading Unknown for [77075][Jeopardy!] https://artworks.thetvdb.com/banners/v4/series/77075/clearlogo/611c5365b61f5.png
+2023-07-16 23:01:04.0|Info|DiskScanService|Completed scanning disk for Jeopardy!
+2023-07-16 23:01:04.1|Info|SeriesScannedHandler|[Jeopardy!] was recently added, performing post-add actions
+2023-07-16 23:01:11.2|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-07-16 23:01:13.1|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2023-07-16 23:01:55.9|Info|AddSeriesService|Adding Series [259972][Gravity Falls] Path: [/tv/Gravity Falls]
+2023-07-16 23:01:56.1|Info|RefreshSeriesService|Updating Gravity Falls
+2023-07-16 23:01:56.5|Info|RefreshEpisodeService|Starting episode info refresh for: [259972][Gravity Falls]
+2023-07-16 23:01:56.6|Info|RefreshEpisodeService|Finished episode refresh for series: [259972][Gravity Falls].
+2023-07-16 23:01:56.6|Info|MediaCoverService|Downloading Banner for [259972][Gravity Falls] https://artworks.thetvdb.com/banners/graphical/259972-g.jpg
+2023-07-16 23:01:56.6|Info|DiskScanService|Scanning Gravity Falls
+2023-07-16 23:01:56.7|Info|DiskScanService|Completed scanning disk for Gravity Falls
+2023-07-16 23:01:56.7|Info|SeriesScannedHandler|[Gravity Falls] was recently added, performing post-add actions
+2023-07-16 23:01:56.9|Info|MediaCoverService|Downloading Poster for [259972][Gravity Falls] https://artworks.thetvdb.com/banners/posters/259972-1.jpg
+2023-07-16 23:01:56.9|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2023-07-16 23:01:57.0|Info|EpisodeSearchService|Performing search for 40 episodes
+2023-07-16 23:01:57.1|Info|ReleaseSearchService|Searching indexers for [Gravity Falls : S01]. 2 active indexers
+2023-07-16 23:01:57.2|Info|MediaCoverService|Downloading Fanart for [259972][Gravity Falls] https://artworks.thetvdb.com/banners/series/259972/backgrounds/5f44c885d0bbc.jpg
+2023-07-16 23:01:57.4|Warn|HttpClient|HTTP Error - Res: [GET] http://10.0.0.53:9117/api/v2.0/indexers/badasstorrents/results/torznab/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&q=Gravity%20Falls&season=1: 400.BadRequest (2082 bytes)
+<?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (badasstorrents): Challenge detected but FlareSolverr is not configured&#xA; ---&gt; FlareSolverrSharp.Exceptions.FlareSolverrException: Challenge detected but FlareSolverr is not configured&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in ./Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 178&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in ./Jackett.Common/Utils/Clients/WebClient.cs:line 186&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 531&#xA;   at Jackett.Common.Indexers.CardigannIndexer.PerformQuery(TorznabQuery query) in ./Jackett.Common/Indexers/CardigannIndexer.cs:line 1505&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 312&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 330&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in ./Jackett.Common/Indexers/BaseIndexer.cs:line 706&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in ./Jackett.Server/Controllers/ResultsController.cs:line 414" />
+2023-07-16 23:01:57.5|Warn|Torznab|Badass Torrents HTTP request failed: [400:BadRequest] [GET] at [http://10.0.0.53:9117/api/v2.0/indexers/badasstorrents/results/torznab/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100&q=Gravity%20Falls&season=1]
+2023-07-16 23:01:57.6|Info|MediaCoverService|Downloading Unknown for [259972][Gravity Falls] https://artworks.thetvdb.com/banners/v4/series/259972/clearlogo/611b97268341f.png
+2023-07-16 23:01:58.3|Info|DownloadDecisionMaker|Processing 6 releases
+2023-07-16 23:01:58.7|Info|DownloadService|Report sent to Transmission. Gravity.Falls.S01.1080p.BluRay.x264-TAXES
+2023-07-16 23:01:59.5|Info|ReleaseSearchService|Searching indexers for [Gravity Falls : S02]. 1 active indexers
+2023-07-16 23:02:00.3|Info|DownloadDecisionMaker|Processing 6 releases
+2023-07-16 23:02:00.5|Info|DownloadService|Report sent to Transmission. Gravity.Falls.S02.720p.BluRay.x264-TAXES
+2023-07-16 23:02:01.1|Info|EpisodeSearchService|Completed search for 40 episodes. 2 reports downloaded.
+2023-07-16 23:02:05.9|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2023-07-16 23:09:43.1|Info|RssSyncService|Starting RSS Sync
+2023-07-16 23:09:43.8|Info|DownloadDecisionMaker|Processing 42 releases
+2023-07-16 23:09:44.0|Info|RssSyncService|RSS Sync Completed. Reports found: 42, Reports grabbed: 0
+2023-07-16 23:25:13.4|Info|RssSyncService|Starting RSS Sync
+2023-07-16 23:25:13.5|Info|DownloadDecisionMaker|Processing 42 releases
+2023-07-16 23:25:13.9|Info|RssSyncService|RSS Sync Completed. Reports found: 42, Reports grabbed: 0
+2023-07-16 23:39:14.4|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /downloads/complete/Gravity.Falls.S01.1080p.BluRay.x264-TAXES[rartv]. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2023-07-16 23:40:14.2|Info|RssSyncService|Starting RSS Sync
+2023-07-16 23:40:15.6|Warn|Torznab|Indexer Pirate Bay rss sync didn't cover the period between 7/16/2023 10:45:10 PM and 7/16/2023 10:45:16 PM UTC. Search may be required.
+2023-07-16 23:40:20.0|Warn|Torznab|Indexer Badass Torrents rss sync didn't cover the period between 7/16/2023 10:35:31 PM and 7/16/2023 10:40:20 PM UTC. Search may be required.
+2023-07-16 23:40:20.1|Info|DownloadDecisionMaker|Processing 47 releases
+2023-07-16 23:40:20.3|Info|RssSyncService|RSS Sync Completed. Reports found: 47, Reports grabbed: 0
+2023-07-16 23:40:44.4|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /downloads/complete/Gravity.Falls.S01.1080p.BluRay.x264-TAXES[rartv]. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
