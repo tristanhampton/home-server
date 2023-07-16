@@ -58,9 +58,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/data:/config
-      - ~/plex/media/TV\ Shows:/tv #optional
-      - /path/to/downloadclient-downloads:/downloads #optional
+      - ~/Compose/sonarr/data:/config
+      - ~/Compose/sonarr/tv:/tv #optional
+      - ~/Compose/sonarr/downloads:/downloads #optional
     ports:
       - 8989:8989
     restart: unless-stopped
