@@ -80,14 +80,12 @@ services:
     volumes:
       - ~/Compose/calibre/data:/config
     ports:
-      - 8080:8080
-      - 8181:8181
       - 8081:8081
     restart: unless-stopped
   sites:
     image: nginx
     container_name: sites
     ports: 
-      - 8000:8000
+      - 8000:80
     volumes: 
       - ./sites:/usr/share/nginx/html
