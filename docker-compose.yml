@@ -42,7 +42,8 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - UMASK=022
+      - TZ=Canada/Edmonton
     volumes:
       - /path/to/data:/config
       - ~/media/books:/books #optional
@@ -56,7 +57,8 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - UMASK=022
+      - TZ=Canada/Edmonton
     volumes:
       - ~/Compose/sonarr/data:/config
       - ~/Compose/sonarr/tv:/tv #optional
