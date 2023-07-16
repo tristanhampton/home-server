@@ -123,13 +123,15 @@ services:
       - 7878:7878
     restart: unless-stopped
   organizr:
-    image: organizr/organizr
     container_name: organizr
+    hostname: organizr
+    image: organizr/organizr:latest
+    restart: unless-stopped
+    ports:
+      - 8080:8080
+    volumes:
+      - ./organizr/config:/config
     environment:
       - PUID=1000
       - PGID=1000
-      - fpm=false #optional
-    volumes:
-      - ./organizr/config:/config
-    ports:
-      - 7979:7979
+      - TZ=Canada/Edmonton
