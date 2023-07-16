@@ -2,6 +2,6 @@ FROM nginx:alpine
 
 WORKDIR /sites
 
-COPY . .
+COPY ./sites .
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
