@@ -1,6 +1,8 @@
 # Setup
 
 ## Permissions
+All the *arr softwares need to be able to write to directories within this repo. Here's the way to do that:
+
 Add new group called media
 ```bash
 sudo groupadd media
