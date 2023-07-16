@@ -122,3 +122,14 @@ services:
     ports:
       - 7878:7878
     restart: unless-stopped
+  organizr:
+    image: organizr/organizr
+    container_name: organizr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - fpm=false #optional
+    volumes:
+      - ./organizr/config:/config
+    ports:
+      - 7979:7979
