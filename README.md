@@ -16,6 +16,10 @@ Torrent client for downloading
 ### Calibre
 Organize books and make them available
 
+### Organizr
+This is supposed to help create a landing page for the server so I dont' have to memorize all the ports.
+Having trouble getting this running properly.
+
 ### Sites
 I'm trying to play with self hosting some sites, but I'm having trouble getting it working right now.
 
