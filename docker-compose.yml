@@ -39,8 +39,9 @@ services:
   readarr:
     image: lscr.io/linuxserver/readarr:develop
     container_name: readarr
-    user: "1000:1000"
     environment:
+      - PUID=1000
+      - PGID=1000
       - UMASK=022
       - TZ=Canada/Edmonton
     volumes:
