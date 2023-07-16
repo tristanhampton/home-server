@@ -1751,3 +1751,29 @@
 2023-07-16 22:24:59.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
 2023-07-16 22:25:10.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
 2023-07-16 22:25:21.1|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:25:32.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:25:43.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:25:54.2|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:26:05.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:26:16.3|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:26:27.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:26:38.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:26:45.6|Info|RootFolderWatchingService|Watching directory /books/
+2023-07-16 22:26:45.9|Info|DiskScanService|Scanning /books/
+2023-07-16 22:26:46.0|Warn|DiskScanService|Scan folder /books/ is empty.
+2023-07-16 22:26:46.0|Info|TrackGroupingService|Grouping 0 tracks
+2023-07-16 22:26:46.1|Info|ImportApprovedBooks|Importing 0 files
+2023-07-16 22:26:49.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:27:00.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:27:11.4|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:27:22.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:27:32.5|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:27:43.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:27:54.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:28:05.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:28:15.6|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:28:21.3|Info|ImportListSyncService|Starting Import List Sync
+2023-07-16 22:28:21.3|Info|ImportListSyncService|Processing 0 list items
+2023-07-16 22:28:21.3|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-16 22:28:26.7|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
+2023-07-16 22:28:37.8|Info|Readarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was challenged.
