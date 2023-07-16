@@ -1,7 +1,4 @@
-FROM nginx:alpine
+FROM nginx
+COPY ./sites /usr/share/nginx/html
 
-WORKDIR /sites
-
-COPY ./sites .
-
-COPY ./nginx.conf /etc/nginx/nginx.conf
+# COPY ./nginx.conf /etc/nginx/nginx.conf
