@@ -30,7 +30,7 @@ services:
       - TRANSMISSION_DOWNLOAD_DIR=/media
     volumes:
       - ./transmission/config:/config
-      - ./transmission/media:/media/TV\ Shows
+      - ./transmission/media:/media
       - ./transmission/watch:/watch
     ports:
       - 9091:9091
