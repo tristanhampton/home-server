@@ -142,10 +142,10 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Canada/Edmonton
     volumes:
-      - /path/to/config:/config
-      - /path/to/data:/data
+      - ./doublecommander/config:/config
+      - ./doublecommander/data:/data
     ports:
       - 3000:3000
       - 3001:3001
