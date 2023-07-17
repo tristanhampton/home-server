@@ -27,6 +27,7 @@ services:
       - WHITELIST= 10.0.0.*, *.*.*.*
       - PEERPORT= #optional
       - HOST_WHITELIST= #optional
+      - TRANSMISSION_DOWNLOAD_DIR=/media
     volumes:
       - ./transmission/config:/config
       - ./transmission/media:/media/TV\ Shows
