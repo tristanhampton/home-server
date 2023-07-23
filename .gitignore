@@ -24,3 +24,12 @@ plex/config/Library/Application Support/Plex Media Server/Codecs/*
 plex/config/Library/Application Support/Plex Media Server/Crash Reports/*
 plex/config/Library/Application Support/Plex Media Server/Logs/*
 plex/config/Library/Application Support/Plex Media Server/Plug-in Support/*
+
+# Jackett
+jackett/config/Jackett/log.txt
+
+# Organizr
+organizr/config/log/*
+
+# Readarr
+readarr/config/logs/*
