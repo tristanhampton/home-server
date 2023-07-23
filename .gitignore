@@ -4,4 +4,23 @@ logs.*
 */logs
 
 organizr/config/www/organizr/
+
+# Transmission
 transmission/media/*
+transmission/config/crontabs
+transmission/config/resume
+transmission/config/torrents
+
+# Sonarr
+sonarr/config/logs
+sonarr/config/MediaCover
+sonarr/config/logs.*
+sonarr/config/sonarr.*
+sonarr/data/*
+
+# Plex
+plex/config/Library/Application Support/Plex Media Server/Cache/*
+plex/config/Library/Application Support/Plex Media Server/Codecs/*
+plex/config/Library/Application Support/Plex Media Server/Crash Reports/*
+plex/config/Library/Application Support/Plex Media Server/Logs/*
+plex/config/Library/Application Support/Plex Media Server/Plug-in Support/*
