@@ -13,8 +13,8 @@ services:
       - ./plex/config:/config
       - ./plex/media:/media
       - ./plex/transcode:/transcode
-      - ./sonarr/tv:tv
-      - ./radarr/movies:movies
+      - ./sonarr/tv:/tv
+      - ./radarr/movies:/movies
   transmission:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
