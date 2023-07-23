@@ -40,4 +40,6 @@ organizr/config/log/*
 
 # Readarr
 readarr/config/logs/*
-sonarr/movies/*
+
+# Radarr
+radarr/movies/*
