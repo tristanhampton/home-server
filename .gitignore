@@ -4,3 +4,4 @@ logs.*
 */logs
 
 organizr/config/www/organizr/
+transmission/media/*
