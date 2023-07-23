@@ -8,12 +8,13 @@ services:
     environment:
       - PLEX_CLAIM=claim-bJvD_6AiyptwTjEzx7_G
       - TZ='mountain'
-      - ADVERTISE_IP=http://your_host_ip:32400/
+      - ADVERTISE_IP=http://10.0.0.53:32400/
     volumes:
       - ./plex/config:/config
       - ./plex/media:/media
       - ./plex/transcode:/transcode
-      - ./transmission/media:/transmission
+      - ./sonarr/tv:tv
+      - ./radarr/movies:movies
   transmission:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
