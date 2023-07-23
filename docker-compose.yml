@@ -75,25 +75,27 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Etc/UTC
+      - TZ=Canada/Edmonton
       - PASSWORD= #optional
       - CLI_ARGS= #optional
     volumes:
-      - ./calibre/config:/config
+      - ./calibre/confog:/config
     ports:
+      - 8080:8080
+      - 8181:8181
       - 8081:8081
     restart: unless-stopped
-  sites:
-    image: app
-    container_name: sites
-    build:
-      context: .
-      dockerfile: Dockerfile
-    restart: always
-    ports: 
-      - 8080:8080
-    volumes: 
-      - ./sites:/usr/share/nginx/html
+  # sites:
+  #   image: app
+  #   container_name: sites
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   restart: always
+  #   ports: 
+  #     - 8080:8080
+  #   volumes: 
+  #     - ./sites:/usr/share/nginx/html
   jackett:
     image: lscr.io/linuxserver/jackett:latest
     container_name: jackett
