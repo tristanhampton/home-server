@@ -6555,3 +6555,132 @@
 2023-07-23 18:09:40.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
 2023-07-23 18:09:40.0|Info|DownloadDecisionMaker|No results found
 2023-07-23 18:09:40.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-23 18:50:25.3|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-23 18:50:26.5|Info|ConsoleApp|Exiting main.
+2023-07-23 18:52:09.6|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-23 18:52:09.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 18:52:09.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 18:52:10.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 18:52:10.9|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 18:52:11.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 18:52:12.1|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-23 18:52:21.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-23 18:52:25.6|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-23 18:52:25.6|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-23 18:52:25.6|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-23 19:09:54.0|Info|RssSyncService|Starting RSS Sync
+2023-07-23 19:09:54.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-23 19:09:54.1|Info|DownloadDecisionMaker|No results found
+2023-07-23 19:09:54.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-23 19:17:22.7|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-23 19:17:23.3|Info|ConsoleApp|Exiting main.
+2023-07-23 19:18:11.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-23 19:18:11.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:18:11.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:18:12.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:18:12.6|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:18:12.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:18:13.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-23 19:18:22.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-23 19:18:25.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-23 19:18:25.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-23 19:18:25.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-23 19:26:12.0|Warn|Torznab|Pirate Bay does not support the following categories: 2010, 2030, 2045, 2050. You should probably remove them.
+2023-07-23 19:26:15.4|Warn|Torznab|Pirate Bay does not support the following categories: 2010, 2030, 2045, 2050. You should probably remove them.
+2023-07-23 19:27:39.1|Info|AddMovieService|Adding Movie [Dungeons & Dragons: Honor Among Thieves (2023)][tt2906216, 493529] Path: [/movies/Dungeons & Dragons Honor Among Thieves (2023)]
+2023-07-23 19:27:39.4|Info|RefreshMovieService|Updating info for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:27:39.6|Warn|MediaCoverMapper|File /config/MediaCover/1/poster.jpg not found
+2023-07-23 19:27:40.2|Info|MediaCoverService|Downloading Poster for [Dungeons & Dragons: Honor Among Thieves (2023)][tt2906216, 493529] https://image.tmdb.org/t/p/original/A7AoNT06aRAc4SV89Dwxj3EYAgC.jpg
+2023-07-23 19:27:40.3|Info|DiskScanService|Scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:27:40.3|Info|DiskScanService|Completed scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:27:40.3|Info|MovieScannedHandler|[Dungeons & Dragons: Honor Among Thieves] was recently added, performing post-add actions
+2023-07-23 19:27:40.4|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2023-07-23 19:27:40.6|Info|ReleaseSearchService|Searching indexers for [Dungeons & Dragons: Honor Among Thieves]. 1 active indexers
+2023-07-23 19:27:41.2|Info|MediaCoverService|Downloading Fanart for [Dungeons & Dragons: Honor Among Thieves (2023)][tt2906216, 493529] https://image.tmdb.org/t/p/original/AdBXP8e6K3FYdDrMx3Wr6WZqCYF.jpg
+2023-07-23 19:27:41.9|Info|DownloadDecisionMaker|Processing 43 releases
+2023-07-23 19:27:42.7|Info|DownloadService|Report for Dungeons & Dragons: Honor Among Thieves (2023) sent to Transmission from indexer Pirate Bay. Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265
+2023-07-23 19:27:42.9|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2023-07-23 19:27:44.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-07-23 19:37:57.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:39:27.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:40:57.4|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:41:41.4|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-23 19:41:42.5|Info|ConsoleApp|Exiting main.
+2023-07-23 19:42:23.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-23 19:42:23.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:42:23.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:42:24.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:42:24.5|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:42:24.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:42:25.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-23 19:42:33.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-23 19:42:35.5|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-23 19:42:35.5|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-23 19:42:35.5|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-23 19:42:55.8|Info|RefreshMovieService|Updating info for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:43:11.2|Info|DiskScanService|Scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:43:11.2|Info|DiskScanService|Completed scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:43:11.2|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2023-07-23 19:43:13.7|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:44:32.8|Info|AddMovieService|Adding Movie [Oppenheimer (2023)][tt15398776, 872585] Path: [/movies/Oppenheimer (2023)]
+2023-07-23 19:44:33.1|Info|RefreshMovieService|Updating info for Oppenheimer
+2023-07-23 19:44:33.2|Warn|MediaCoverMapper|File /config/MediaCover/2/poster.jpg not found
+2023-07-23 19:44:33.7|Info|DiskScanService|Scanning disk for Oppenheimer
+2023-07-23 19:44:33.7|Info|MediaCoverService|Downloading Poster for [Oppenheimer (2023)][tt15398776, 872585] https://image.tmdb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg
+2023-07-23 19:44:33.7|Info|DiskScanService|Completed scanning disk for Oppenheimer
+2023-07-23 19:44:33.7|Info|MovieScannedHandler|[Oppenheimer] was recently added, performing post-add actions
+2023-07-23 19:44:33.7|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2023-07-23 19:44:34.5|Info|MediaCoverService|Downloading Fanart for [Oppenheimer (2023)][tt15398776, 872585] https://image.tmdb.org/t/p/original/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg
+2023-07-23 19:44:37.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2023-07-23 19:44:42.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:46:12.0|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:47:42.1|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:47:54.0|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-23 19:47:54.8|Info|ConsoleApp|Exiting main.
+2023-07-23 19:48:26.1|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-23 19:48:26.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:48:26.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:48:27.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:48:27.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:48:28.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:48:29.0|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-23 19:48:35.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-23 19:48:38.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-23 19:48:38.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-23 19:48:38.9|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-23 19:49:08.2|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:50:36.3|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:50:51.8|Info|RefreshMovieService|Updating info for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:50:56.9|Info|DiskScanService|Scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:50:56.9|Info|DiskScanService|Completed scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:50:57.0|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2023-07-23 19:52:06.6|Error|DownloadedMovieImportService|Import failed, path does not exist or is not accessible by Radarr: /downloads/complete/Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265.HEVC-PSA. Ensure the path exists and the user running Radarr has the correct permissions to access this file/folder
+2023-07-23 19:53:07.1|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-23 19:53:08.0|Info|ConsoleApp|Exiting main.
+2023-07-23 19:53:39.8|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-23 19:53:40.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:53:40.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:53:40.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-23 19:53:41.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:53:41.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-23 19:53:42.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-23 19:53:49.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-23 19:53:52.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-23 19:53:52.4|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-23 19:53:52.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-23 19:54:10.3|Info|RefreshMovieService|Updating info for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:54:25.3|Info|DiskScanService|Scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:54:25.3|Info|DiskScanService|Completed scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:54:25.3|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2023-07-23 19:59:15.4|Info|RefreshMovieService|Updating info for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:59:20.7|Info|DiskScanService|Scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:59:20.7|Info|DiskScanService|Completed scanning disk for Dungeons & Dragons: Honor Among Thieves
+2023-07-23 19:59:20.7|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2023-07-23 19:59:30.6|Info|ReleaseSearchService|Searching indexers for [Dungeons & Dragons: Honor Among Thieves]. 1 active indexers
+2023-07-23 19:59:31.0|Info|DownloadDecisionMaker|Processing 43 releases
+2023-07-23 19:59:31.6|Info|DownloadService|Report for Dungeons & Dragons: Honor Among Thieves (2023) sent to Transmission from indexer Pirate Bay. Dungeons.and.Dragons.Honor.Among.Thieves.2023.2160p.HDR10Plus.DV.WEBRip.6CH.x265
+2023-07-23 19:59:31.7|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2023-07-23 19:59:39.8|Info|ReleaseSearchService|Searching indexers for [Dungeons & Dragons: Honor Among Thieves]. 1 active indexers
+2023-07-23 19:59:39.9|Info|DownloadDecisionMaker|Processing 43 releases
+2023-07-23 19:59:40.2|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2023-07-23 19:59:42.6|Info|MovieService|Assigning file [Dungeons & Dragons Honor Among Thieves (2023).mkv] to movie [[Dungeons & Dragons: Honor Among Thieves (2023)][tt2906216, 493529]]
