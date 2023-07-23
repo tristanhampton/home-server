@@ -119,7 +119,7 @@ services:
     volumes:
       - ./radarr/config:/config
       - ./radarr/movies:/movies #optional
-      - ./transmission/downloads/complete:/downloads # this should match Transmissions download folder
+      - ./transmission/downloads/complete:/downloads/complete # this should match Transmissions download folder
     ports:
       - 7878:7878
     restart: unless-stopped

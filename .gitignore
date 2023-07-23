@@ -23,6 +23,7 @@ sonarr/config/MediaCover
 sonarr/config/logs.*
 sonarr/config/sonarr.*
 sonarr/data/*
+sonarr/tv/*
 
 # Plex
 plex/config/Library/Application Support/Plex Media Server/Cache/*
