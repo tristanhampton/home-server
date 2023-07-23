@@ -3,13 +3,19 @@ logs.*
 *.log
 */logs
 
+# Don't want to track databases
+*.db-shm
+*.db-wal
+*.db
+
+
 organizr/config/www/organizr/
 
 # Transmission
 transmission/media/*
-transmission/config/crontabs
-transmission/config/resume
-transmission/config/torrents
+transmission/config/crontabs/*
+transmission/config/resume/*
+transmission/config/torrents/*
 
 # Sonarr
 sonarr/config/logs
