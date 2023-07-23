@@ -31,6 +31,7 @@ plex/config/Library/Application Support/Plex Media Server/Codecs/*
 plex/config/Library/Application Support/Plex Media Server/Crash Reports/*
 plex/config/Library/Application Support/Plex Media Server/Logs/*
 plex/config/Library/Application Support/Plex Media Server/Plug-in Support/*
+plex/transcode
 
 # Jackett
 jackett/config/Jackett/log.txt
