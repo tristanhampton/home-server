@@ -48,7 +48,7 @@ services:
     volumes:
       - ./readarr/config:/config
       - ./readarr/books:/books #optional
-      - ./transmission/media:/downloads #optional
+      - ./transmission/media:/downloads # this should match Transmissions download folder
     ports:
       - 8787:8787
     restart: unless-stopped
@@ -63,7 +63,7 @@ services:
     volumes:
       - ./sonarr/config:/config
       - ./sonarr/tv:/tv #optional
-      - ./transmission/media:/downloads #optional
+      - ./transmission/media:/downloads # this should match Transmissions download folder
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -119,7 +119,7 @@ services:
     volumes:
       - ./radarr/config:/config
       - ./radarr/movies:/movies #optional
-      - ./radarr/downloads:/downloads #optional
+      - ./transmission/media:/downloads # this should match Transmissions download folder
     ports:
       - 7878:7878
     restart: unless-stopped
