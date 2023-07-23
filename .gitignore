@@ -33,6 +33,7 @@ plex/config/Library/Application Support/Plex Media Server/Crash Reports/*
 plex/config/Library/Application Support/Plex Media Server/Logs/*
 plex/config/Library/Application Support/Plex Media Server/Plug-in Support/*
 plex/transcode
+plex/config/Library
 
 # Jackett
 jackett/config/Jackett/log.txt
@@ -43,6 +44,7 @@ organizr/config/log/*
 # Readarr
 readarr/config/logs/*
 readarr/config/Backups/
+readarr/config/logs/
 
 # Radarr
 radarr/movies/*
