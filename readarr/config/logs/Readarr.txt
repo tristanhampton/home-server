@@ -4222,3 +4222,6 @@ FeedUrl: http://10.0.0.53:9117/api/v2.0/indexers/ebookbay/results/torznab/api?t=
 2023-07-23 18:29:32.0|Info|ImportListSyncService|Starting Import List Sync
 2023-07-23 18:29:32.0|Info|ImportListSyncService|Processing 0 list items
 2023-07-23 18:29:32.0|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
+2023-07-23 18:34:32.4|Info|ImportListSyncService|Starting Import List Sync
+2023-07-23 18:34:32.4|Info|ImportListSyncService|Processing 0 list items
+2023-07-23 18:34:32.4|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
