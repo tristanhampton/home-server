@@ -164,7 +164,8 @@ services:
     user: 1000:1000 # default
     environment:
       - INIT_ASSETS=1 # default
-  image: dperson/samba:latest
+  samba:
+    image: dperson/samba:latest
     container_name: samba
     ports:
       - "139:139/tcp"
