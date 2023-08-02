@@ -165,6 +165,7 @@ services:
     environment:
       - INIT_ASSETS=1 # default
   image: dperson/samba:latest
+    container_name: samba
     ports:
       - "139:139/tcp"
       - "445:445/tcp"
@@ -176,6 +177,7 @@ services:
       - /var/lib/samba:/var/lib/samba
       - /etc/shadow:/etc/shadow:ro
       - /etc/passwd:/etc/passwd:ro
+      - ./:media
     environment:
       - USERID=1000
       - GROUPID=1000
