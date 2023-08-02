@@ -164,23 +164,24 @@ services:
     user: 1000:1000 # default
     environment:
       - INIT_ASSETS=1 # default
-  samba:
-    image: dperson/samba:latest
-    container_name: samba
-    ports:
-      - "139:139/tcp"
-      - "445:445/tcp"
-    volumes:
-      - /etc/samba:/etc/samba:ro
-      - /var/log/samba:/var/log/samba
-      - /usr/share/samba:/usr/share/samba
-      - /srv/nas/Public:/srv/nas/Public
-      - /var/lib/samba:/var/lib/samba
-      - /etc/shadow:/etc/shadow:ro
-      - /etc/passwd:/etc/passwd:ro
-      - ./:/media
-    environment:
-      - USERID=1000
-      - GROUPID=1000
-      - TZ=Canada/Edmonton
-    restart: unless-stopped
+  samba:  
+    image: dperson/samba  
+    container_name: samba  
+    ports:  
+      - "137:137/udp"  
+      - "138:138/udp"  
+      - "139:139/tcp"  
+      - "445:445/tcp"  
+    restart: unless-stopped  
+    healthcheck:  
+      disable: true  
+    environment:  
+      - TZ=${TZ}  
+      - PUID=${PUID}  
+      - PGID=${PGID}  
+      - WORKGROUP=workgroup  
+      - USER=username;pass  
+      - RECYCLE=false  
+      - SHARE=Downloads;/downloads;yes;no;no;;gerben  
+    volumes:  
+      -./:/media
