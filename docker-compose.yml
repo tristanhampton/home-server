@@ -125,45 +125,6 @@ services:
     ports:
       - 7878:7878
     restart: unless-stopped
-  organizr:
-    container_name: organizr
-    hostname: organizr
-    image: organizr/organizr:latest
-    restart: unless-stopped
-    ports:
-      - 8082:8082
-    volumes:
-      - ./organizr/config:/config
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Canada/Edmonton
-  doublecommander:
-    image: lscr.io/linuxserver/doublecommander:latest
-    container_name: doublecommander
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Canada/Edmonton
-    volumes:
-      - ./doublecommander/config:/config
-      - ./doublecommander/data:/data
-    ports:
-      - 3000:3000
-      - 3001:3001
-    restart: unless-stopped
-  homer:
-    image: b4bz/homer
-    #To build from source, comment previous line and uncomment below
-    #build: .
-    container_name: homer
-    volumes:
-      - ./sites/:/www/assets
-    ports:
-      - 8083:8083
-    user: 1000:1000 # default
-    environment:
-      - INIT_ASSETS=1 # default
   samba:  
     image: dperson/samba  
     container_name: samba  
