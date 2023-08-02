@@ -178,7 +178,7 @@ services:
       - /var/lib/samba:/var/lib/samba
       - /etc/shadow:/etc/shadow:ro
       - /etc/passwd:/etc/passwd:ro
-      - ./:media
+      - ./:/media
     environment:
       - USERID=1000
       - GROUPID=1000
