@@ -182,6 +182,6 @@ services:
       - WORKGROUP=workgroup  
       - USER=tristanhampton;Localphone1  
       - RECYCLE=false  
-      - SHARE=Downloads;/downloads;yes;no;no;;gerben  
+      - SHARE=Media;./;yes;no;no;;gerben  
     volumes:  
       - ./:/media
