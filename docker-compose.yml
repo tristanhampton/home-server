@@ -176,11 +176,11 @@ services:
     healthcheck:  
       disable: true  
     environment:  
-      - TZ=${TZ}  
-      - PUID=${PUID}  
-      - PGID=${PGID}  
+      - TZ=Canada/Edmonton 
+      - PUID=1000
+      - PGID=1000
       - WORKGROUP=workgroup  
-      - USER=username;pass  
+      - USER=tristanhampton;Localphone1  
       - RECYCLE=false  
       - SHARE=Downloads;/downloads;yes;no;no;;gerben  
     volumes:  
