@@ -164,21 +164,21 @@ services:
     user: 1000:1000 # default
     environment:
       - INIT_ASSETS=1 # default
-  samba:
-    image: dperson/samba
-    environment:
-      TZ: 'EST5EDT'
-    networks:
-      - default
+  image: dperson/samba:latest
+    container_name: samba
     ports:
-      - 8084:8084
-    read_only: false
-    tmpfs:
-      - /tmp
-    restart: unless-stopped
-    stdin_open: true
-    tty: true
+      - "139:139/tcp"
+      - "445:445/tcp"
     volumes:
-      - ./:/mnt:z
-    command: '-s "Mount;/mnt" -s "Bobs Volume;/mnt2;yes;no;no;bob" -u "bob;bobspasswd" -p'
-
+      - /etc/samba:/etc/samba:ro
+      - /var/log/samba:/var/log/samba
+      - /usr/share/samba:/usr/share/samba
+      - /srv/nas/Public:/srv/nas/Public
+      - /var/lib/samba:/var/lib/samba
+      - /etc/shadow:/etc/shadow:ro
+      - /etc/passwd:/etc/passwd:ro
+    environment:
+      - USERID=1000
+      - GROUPID=1000
+      - TZ=Canada/Edmonton
+    restart: unless-stopped
