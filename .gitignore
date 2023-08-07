@@ -46,3 +46,4 @@ readarr/config/logs/
 radarr/movies/*
 radarr/config/Backups/
 radarr/config/logs/
+radarr/config/MediaCover
