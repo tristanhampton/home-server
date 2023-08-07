@@ -88,9 +88,12 @@ services:
   sites:
     image: nginx
     container_name: sites
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: always
     ports: 
-      - 8000:8080
+      - 8080:8080
     volumes: 
       - ./sites:/usr/share/nginx/html
   jackett:
