@@ -143,6 +143,6 @@ services:
       - WORKGROUP=workgroup  
       - USER=${USERNAME};${PASSWORD}  
       - RECYCLE=false  
-      - SHARE=Media;/media;yes;no;no;;gerben  
+      - SHARE=Media;/media;yes;yes;no;;gerben  
     volumes:  
       - ./:/media
