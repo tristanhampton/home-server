@@ -153,7 +153,10 @@ services:
   audiobookshelf:
     image: ghcr.io/advplyr/audiobookshelf:latest
     ports:
-      - 7272:7272
+      - 13378:80
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
     volumes:
       - ./audiobookshelf/audiobooks:/audiobooks
       - ./audiobookshelf/podcasts:/podcasts
