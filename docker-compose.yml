@@ -142,8 +142,11 @@ services:
       - PGID=${PGID}
       - WORKGROUP=workgroup  
       - USER=${USERNAME};${PASSWORD}  
+      - USERID=${PUID}
+      - GROUPID=${PGID}
       - RECYCLE=false  
       - PERMISSIONS=true
+      - SMB=true
       - SHARE=Media;/media;yes;no;no;;${USERNAME}  
     volumes:  
       - ./:/media
