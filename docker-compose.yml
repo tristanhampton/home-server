@@ -150,3 +150,12 @@ services:
       - SHARE=Media;/media;yes;no;no;;${USERNAME}  
     volumes:  
       - ./:/media
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    ports:
+      - 7272:7272
+    volumes:
+      - ./audiobookshelf/audiobooks:/audiobooks
+      - ./audiobookshelf/podcasts:/podcasts
+      - ./audiobookshelf/config:/config
+      - ./audiobookshelf/metadata:/metadata
