@@ -85,17 +85,17 @@ services:
       - 8181:8181
       - 8081:8081
     restart: unless-stopped
-  # sites:
-  #   image: app
-  #   container_name: sites
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
-  #   restart: always
-  #   ports: 
-  #     - 8080:8080
-  #   volumes: 
-  #     - ./sites:/usr/share/nginx/html
+  sites:
+    image: nginx
+    container_name: sites
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports: 
+      - 8000:8000
+    volumes: 
+      - ./sites:/usr/share/nginx/html
   jackett:
     image: lscr.io/linuxserver/jackett:latest
     container_name: jackett
@@ -152,6 +152,7 @@ services:
       - ./:/media
   audiobookshelf:
     image: ghcr.io/advplyr/audiobookshelf:latest
+    container_name: audiobookshelf  
     ports:
       - 13378:80
     environment:
