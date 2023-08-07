@@ -365,3 +365,6 @@ Id = [0]
 2023-08-07 21:37:44.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
 2023-08-07 21:37:44.0|Info|DownloadDecisionMaker|No results found
 2023-08-07 21:37:44.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-08-07 21:42:44.7|Info|ImportListSyncService|Starting Import List Sync
+2023-08-07 21:42:44.7|Info|ImportListSyncService|Processing 0 list items
+2023-08-07 21:42:44.7|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Authors added: 0, Books added: 0
