@@ -7,7 +7,7 @@ services:
     network_mode: host
     environment:
       - PLEX_CLAIM=claim-bJvD_6AiyptwTjEzx7_G
-      - TZ='mountain'
+      - TZ=${TIMEZONE}
       - ADVERTISE_IP=http://10.0.0.53:32400/
     volumes:
       - ./plex/config:/config
@@ -19,18 +19,18 @@ services:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Etc/UTC
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TIMEZONE}
       - TRANSMISSION_WEB_HOME= #optional
-      - USER=tristanhampton
-      - PASS=Localphone1
+      - USER=${USERNAME}
+      - PASS=${PASSWORD}
       - WHITELIST= 10.0.0.*, *.*.*.*
       - PEERPORT= #optional
       - HOST_WHITELIST= #optional
     volumes:
       - ./transmission/config:/config
-      - ./transmission/downloads:/downloads
+      - ${DOWNLOAD_DIR}:/downloads
       - ./transmission/watch:/watch
     ports:
       - 9091:9091
@@ -41,14 +41,14 @@ services:
     image: lscr.io/linuxserver/readarr:develop
     container_name: readarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=${PUID}
+      - PGID=${PGID}
       - UMASK=022
-      - TZ=Canada/Edmonton
+      - TZ=${TIMEZONE}
     volumes:
       - ./readarr/config:/config
       - ./readarr/books:/books #optional
-      - ./transmission/downloads:/downloads # this should match Transmissions download folder
+      - ${DOWNLOAD_DIR}:/downloads # this should match Transmissions download folder
     ports:
       - 8787:8787
     restart: unless-stopped
@@ -56,14 +56,14 @@ services:
     image: lscr.io/linuxserver/sonarr:latest
     container_name: sonarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=${PUID}
+      - PGID=${PGID}
       - UMASK=022
-      - TZ=Canada/Edmonton
+      - TZ=${TIMEZONE}
     volumes:
       - ./sonarr/config:/config
       - ./sonarr/tv:/tv #optional
-      - ./transmission/downloads:/downloads # this should match Transmissions download folder
+      - ${DOWNLOAD_DIR}:/downloads # this should match Transmissions download folder
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -73,9 +73,9 @@ services:
     security_opt:
       - seccomp:unconfined #optional
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Canada/Edmonton
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TIMEZONE}
       - PASSWORD= #optional
       - CLI_ARGS= #optional
     volumes:
@@ -100,9 +100,9 @@ services:
     image: lscr.io/linuxserver/jackett:latest
     container_name: jackett
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Canada/Edmonton
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TIMEZONE}
       - AUTO_UPDATE=true #optional
       - RUN_OPTS= #optional
     volumes:
@@ -115,13 +115,13 @@ services:
     image: lscr.io/linuxserver/radarr:latest
     container_name: radarr
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Canada/Edmonton
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TIMEZONE}
     volumes:
       - ./radarr/config:/config
       - ./radarr/movies:/movies #optional
-      - ./transmission/downloads/complete:/downloads/complete # this should match Transmissions download folder
+      - ${DOWNLOAD_DIR}/complete:/downloads/complete # this should match Transmissions download folder
     ports:
       - 7878:7878
     restart: unless-stopped
@@ -137,12 +137,12 @@ services:
     healthcheck:  
       disable: true  
     environment:  
-      - TZ=Canada/Edmonton 
-      - PUID=1000
-      - PGID=1000
+      - TZ=${TIMEZONE}
+      - PUID=${PUID}
+      - PGID=${PGID}
       - WORKGROUP=workgroup  
-      - USER=tristanhampton;Localphone1  
+      - USER=${USERNAME};${PASSWORD}  
       - RECYCLE=false  
-      - SHARE=Media;/media;yes;no;no;;gerben  
+      - SHARE=Media;/media;no;no;no;;gerben  
     volumes:  
       - ./:/media
