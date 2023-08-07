@@ -47,3 +47,7 @@ radarr/movies/*
 radarr/config/Backups/
 radarr/config/logs/
 radarr/config/MediaCover
+
+# Audiobook Shelf
+audiobokshelf/metadata/logs
+audiobokshelf/config/*.sqlite
