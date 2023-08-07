@@ -27,11 +27,7 @@ sonarr/tv/*
 sonarr/config/Backups/
 
 # Plex
-plex/config/Library/Application Support/Plex Media Server/Cache/*
-plex/config/Library/Application Support/Plex Media Server/Codecs/*
-plex/config/Library/Application Support/Plex Media Server/Crash Reports/*
-plex/config/Library/Application Support/Plex Media Server/Logs/*
-plex/config/Library/Application Support/Plex Media Server/Plug-in Support/*
+plex/config/Library/Application Support/Plex Media Server/
 plex/transcode
 plex/config/Library
 
@@ -49,3 +45,4 @@ readarr/config/logs/
 # Radarr
 radarr/movies/*
 radarr/config/Backups/
+radarr/config/logs/
