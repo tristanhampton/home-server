@@ -15,7 +15,7 @@ services:
       - ./plex/transcode:/transcode
       - ./sonarr/tv:/tv
       - ./radarr/movies:/movies
-      - ./theare:/theatre
+      - ./theatre:/theatre
   transmission:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
