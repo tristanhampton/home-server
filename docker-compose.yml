@@ -88,7 +88,7 @@ services:
     restart: unless-stopped
   landing_page:
     image: nginx:alpine
-    container_name: nginx
+    container_name: landing_page
     restart: always
     ports: 
       - 8888:80
