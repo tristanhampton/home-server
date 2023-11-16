@@ -91,7 +91,7 @@ services:
     container_name: nginx
     restart: always
     ports: 
-      - 8888:8888
+      - 8888:80
     volumes: 
       - ./sites:/usr/share/nginx/html
   jackett:
