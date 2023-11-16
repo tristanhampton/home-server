@@ -86,14 +86,14 @@ services:
       - 8181:8181
       - 8081:8081
     restart: unless-stopped
-  # nginx:
-  #   image: nginx:alpine
-  #   container_name: nginx
-  #   restart: always
-  #   ports: 
-  #     - 8888:80
-  #   volumes: 
-  #     - ./sites:/usr/share/nginx/html
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    restart: always
+    ports: 
+      - 8888:8888
+    volumes: 
+      - ./sites:/usr/share/nginx/html
   jackett:
     image: lscr.io/linuxserver/jackett:latest
     container_name: jackett
