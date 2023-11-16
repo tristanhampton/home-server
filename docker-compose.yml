@@ -15,6 +15,7 @@ services:
       - ./plex/transcode:/transcode
       - ./sonarr/tv:/tv
       - ./radarr/movies:/movies
+      - ./theare:/theatre
   transmission:
     image: lscr.io/linuxserver/transmission:latest
     container_name: transmission
@@ -85,15 +86,12 @@ services:
       - 8181:8181
       - 8081:8081
     restart: unless-stopped
-  # sites:
-  #   image: nginx
-  #   container_name: sites
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: nginx
   #   restart: always
   #   ports: 
-  #     - 8080:8080
+  #     - 8888:80
   #   volumes: 
   #     - ./sites:/usr/share/nginx/html
   jackett:
